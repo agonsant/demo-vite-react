@@ -5,7 +5,7 @@ import App from "./App.jsx";
 
 const parentElement = document.getElementById("root");
 createRoot(parentElement).render(
-  // <StrictMode>
-  <App />
-  // </StrictMode>
+  <StrictMode>
+    <App />
+  </StrictMode>
 );
